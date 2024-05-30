@@ -37,13 +37,17 @@ body{
     padding: 15px 10px;
     background-color: rgb(17, 17, 17);
 }
-.header_frist_logo{
+.header_frist_logo {
     width: 100%;
     height: 33.33%;
     color: white;
     font-size: 25px;
     padding: 10px 10px;
     font-weight: 900;
+}
+.header_frist_logo span{
+    font-size: 20px;
+    cursor: pointer;
 }
 .header_seond_box1{
     width: 100%;
@@ -76,7 +80,7 @@ body{
     height: 35%;
     background-color: rgb(59, 56, 56);
     border-radius: 15px;
-    padding: 5px 10px;
+    padding: 14px 20px;
     color: white;
     margin-bottom: 10px;
 }
@@ -84,19 +88,25 @@ body{
     padding: 10px 20px;
     border-radius: 30px;
     margin-top: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 .header_second_box_one2{
     width: 100%;
     height: 35%;
     background-color: rgb(59, 56, 56);
     border-radius: 15px;
-    padding: 5px 10px;
+    padding: 14px 20px;
     color: white;
 }
 .header_second_box_one2 button{
     padding: 10px 20px;
     border-radius: 30px;
     margin-top: 5px;
+    overflow: none;
+    border: none;
+    cursor: pointer;
 }
 .header_seond_box_two{
     width: 100px;
@@ -121,7 +131,7 @@ body{
 .section_one{
     width: 100%;
     height: 65px;
-    background-color: rgb(43, 43, 43);
+    background-color: #101010;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -130,21 +140,22 @@ body{
     top: 0%;
     left: 0%;
     z-index: 99;
+    cursor: pointer;
 }
 .s_one{
     width: 20%;
     height: 100%;
 }
 .section_one_icons i{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: black;
-    color: white;
-    font-size: 26px;
-    padding-top: 11px;
-    padding-left: 15px;
-    margin-left: 10px;
+    width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 26px;
+  padding-top: 8px;
+  padding-left: 11px;
+  margin-left: 10px;
 }
 .section_one_icons{
     width: auto;
@@ -184,6 +195,8 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.034),black);
 }
 .section_two_box{
     width: 16.66%;
@@ -192,7 +205,7 @@ body{
     transition: 0.2s;
 }
 .section_two_box:hover{
-    background-color: rgba(255, 255, 255, 0.315);
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.027));
 }
 .section_two_img{
     width: 100%;
@@ -265,6 +278,8 @@ body{
 .section_three{
     width: 100%;
     height: 320px;
+    cursor: pointer;
+
 }
 .section_three_one{
     width: 100%;
@@ -276,10 +291,10 @@ body{
     color: white;
     margin-bottom: 15px;
 }
-.section_three_one:hover h1{
+.section_three_one h1:hover{
     text-decoration: underline;
 }
-.section_three_one:hover p{
+.section_three_one p:hover{
     text-decoration: underline;
 }
 .section_three_two{
@@ -403,4 +418,26 @@ body{
 .header_frist_logo:hover span{
     transform: scale(1.2);
     text-shadow: 0px 0px 5px #fff;
+}
+.section_four_box {
+    transition: 0.2s;
+}
+.section_four_box p:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    cursor: pointer;
+}
+.s_four_flex i{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.s_four_flex i:hover{
+    transform: scale(1.2);
 }
