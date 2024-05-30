@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 100vw;
+    height: 94vh;
+    display: flex;
+    overflow: hidden;
+}
+.header{
+    width: 428px;
+    height: 100%;
+    background-color: black;
+    border-radius: 20px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    margin-right: 7px;
+}
+.header_frist{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 20px;
+    margin-bottom: 7px;
+    padding: 10px 10px;
+}
+.header_second{
+    width: 100%;
+    height: 82.5%;
+    border-radius: 20px;
+    padding: 15px 10px;
+    background-color: rgb(17, 17, 17);
+}
+.header_frist_logo{
+    width: 100%;
+    height: 33.33%;
+    color: white;
+    font-size: 25px;
+    padding: 10px 10px;
+    font-weight: 900;
+}
+.header_seond_box1{
+    width: 100%;
+    height: 52%;
+    margin-bottom: 168px;
+    font-family: "Roboto", sans-serif;
+}
+.header_seond_box2{
+    width: 100%;
+    height: 24%;
+    padding: 10px 20px 0px 10px;
+    font-size: 18px;
+    color: rgb(85, 82, 82);
+    font-family: "Roboto", sans-serif;
+}
+.header_seond_box2 span{
+    margin: 0px 2px 5px 0px;
+}
+.header_second_box_one{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+.header_second_box_one1{
+    width: 100%;
+    height: 35%;
+    background-color: rgb(59, 56, 56);
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+.header_second_box_one1 button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+.header_second_box_one2{
+    width: 100%;
+    height: 35%;
+    background-color: rgb(59, 56, 56);
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: white;
+}
+.header_second_box_one2 button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+.header_seond_box_two{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid rgb(139, 138, 138);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 900;
+    color: white;
+}
+.main{
+    width: 77%;
+    height: 104%;
+    background-color: rgb(17, 17, 17);
+    border-radius: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.section_one{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 99;
+}
+.s_one{
+    width: 20%;
+    height: 100%;
+}
+.section_one_icons i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    padding-top: 11px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+.section_one_icons{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_one_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+}
+.section_one_button div{
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+.s_one_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_one_sing{
+    color: white;
+}
+.section_one_login{
+    background-color: white;
+    color: black;
+}
+.section_two{
+    width: 100%;
+    height: 358px;
+    padding: 30px 10px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.section_two_box{
+    width: 16.66%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.section_two_box:hover{
+    background-color: rgba(255, 255, 255, 0.315);
+}
+.section_two_img{
+    width: 100%;
+    height: 240px;
+    border-radius: 50%;
+    position: relative;
+}
+.s_two1{
+    background-image: url(images/one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s_two2{
+    background-image: url(images/two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s_two3{
+    background-image: url(images/three.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s_two4{
+    background-image: url(images/four.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s_two5{
+    background-image: url(images/five.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s_two6{
+    background-image: url(images/six.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section_two_box h2{
+    margin: 5px 10px;
+    font-weight: 900;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.section_two_box p{
+    margin: 5px 10px;
+    color: rgb(155, 150, 150);
+}
+.s_two_play{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(33, 194, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    top: 86%;
+    left: 74%;
+    transition: 0.2s;
+    opacity: 0;
+}
+.section_two_box:hover .s_two_play{
+    top: 74%;
+    opacity: 1;
+}
+.s_two_play:hover{
+    transform: scale(1.1);
+}
+.section_three{
+    width: 100%;
+    height: 320px;
+}
+.section_three_one{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    color: white;
+    margin-bottom: 15px;
+}
+.section_three_one:hover h1{
+    text-decoration: underline;
+}
+.section_three_one:hover p{
+    text-decoration: underline;
+}
+.section_three_two{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.section_three_two_box{
+    width: 16.66%;
+    height: 100%;
+    border-radius: 10px;
+}
+.s_three_two_img{
+    width: 100%;
+    height: 77%;
+    border-radius: 10px;
+    position: relative;
+}
+.s_three_one{
+    background-image: url(images/seven.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s_three_two{
+    background-image: url(images/eight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s_three_three{
+    background-image: url(images/nine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s_three_four{
+    background-image: url(images/ten.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s_three_five{
+    background-image: url(images/ten_one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s_three_six{
+    background-image: url(images/ten_two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section_three_two_box h2{
+    margin-top: 7px;
+    margin: 0;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.section_three_two_box p{
+    margin-top: 0px;
+    margin-top: 7px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.section_three_play{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(16, 219, 16);
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    border-radius:50% ;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.s_three_two_img:hover .section_three_play{
+    top: 76%;
+    opacity: 1;
+}
+.s_four_top{
+    margin-top: 50px;
+}
+.section_four{
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.section_four_box{
+    width: 20%;
+    height: 200px;
+    color: white;
+    padding: 10px;
+}
+.s_four_flex{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+.section_five{
+    width: 100%;
+    height: 150px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+}
+.header_frist_logo{
+    transition: 0.2s;
+}
+.header_frist_logo:hover i{
+    transform: scale(1.2);
+    text-shadow: 0px 0px 5px #fff;
+}
+.header_frist_logo:hover span{
+    transform: scale(1.2);
+    text-shadow: 0px 0px 5px #fff;
+}
